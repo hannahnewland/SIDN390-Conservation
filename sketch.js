@@ -46,7 +46,7 @@ function draw() {
  
   
  
-   image(BackgroundImage, screenWidth/2, screenHeight/2, imgWidth*1.2, imgHeight *1.2);
+   image(BackgroundImage, screenWidth/2, screenHeight/2, imgWidth*1.5, imgHeight *1.5);
 }
 
 window.addEventListener('resize',updateCanvasSize);
