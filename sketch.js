@@ -27,7 +27,7 @@ function setup() {
 function draw() {
 
   imageMode(CENTER);
-  background(0,255,0);
+  background('#8CBFDB');
 
    // Determine aspect ratio
    let imgAspectRatio = BackgroundImage.width / BackgroundImage.height;
