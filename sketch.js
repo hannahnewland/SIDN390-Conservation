@@ -14,7 +14,7 @@ function updateCanvasSize(){
 
 function preload(){
 
-  BackgroundImage = loadImage('/assets/IMG_5351.jpg');
+  BackgroundImage = loadImage('assets/IMG_5351.jpg');
 }
 
 function setup() {
