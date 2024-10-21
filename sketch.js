@@ -99,12 +99,12 @@ function draw() {
 
    fill(255,255,255,100);
    noStroke();
-   rect(0, screenHeight/5.5, screenWidth/1.3, screenHeight/6);
+   rect(-50, screenHeight/5.5, screenWidth/1.27, screenHeight/6, 50);
 
    fill("#009245");
-   textFont(Coolvetica);
-   textSize(screenHeight/20);
-   text('Support the conservation of Kākā in the Wellington Region \nthrough these organisations:', screenWidth/35, screenHeight/4);
+   textFont('Helvetica');
+   textSize(screenHeight/22);
+   text('Support the conservation of Kākā and other endemic species \nin the Wellington Region through these organisations:', screenWidth/35, screenHeight/4);
 
 
 
