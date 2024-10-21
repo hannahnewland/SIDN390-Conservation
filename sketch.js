@@ -97,7 +97,7 @@ function draw() {
  
    image(BackgroundImage, screenWidth/2, screenHeight/2, imgWidth, imgHeight);
 
-   fill('#ffffff');
+   fill(255,255,255,100);
    noStroke();
    rect(0, screenHeight/5.5, screenWidth/1.3, screenHeight/6);
 
