@@ -3,6 +3,9 @@ let screenHeight = window.innerHeight;
 let main_canvas;
 
 let BackgroundImage;
+let bird1;
+let bird2;
+let bird3;
 
 var ZealandiaButton;
 var PredatorFreeWellingtonButton;
@@ -22,6 +25,9 @@ function updateCanvasSize(){
 function preload(){
 
   BackgroundImage = loadImage('assets/BackgroundImage.jpg');
+  bird1 = loadImage('assets/bird1.png');
+  bird2 = loadImage('assets/bird2.png');
+  bird3 = loadImage('assets/bird3.png');
   Coolvetica = loadFont('assets/coolvetica.otf');
 }
 
@@ -70,6 +76,8 @@ function setup() {
     window.open("https://www.forestandbird.org.nz/support-us", "_blank");
   });
 
+  
+
 
 }
 
@@ -106,8 +114,8 @@ function draw() {
    textSize(screenHeight/22);
    text('Support the conservation of Kākā and other endemic species \nin the Wellington Region through these organisations:', screenWidth/35, screenHeight/4);
 
-
-
+   //image(bird2,770,screenHeight/2,100,100);
+   
 
 }
 
